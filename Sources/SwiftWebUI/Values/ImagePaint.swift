@@ -3,8 +3,12 @@
 //  SwiftWebUI
 //
 //  Created by Helge Heß on 24.06.19.
-//  Copyright © 2019 Helge Heß. All rights reserved.
+//  Copyright © 2019-2024 Helge Heß. All rights reserved.
 //
+
+#if canImport(CoreGraphics)
+import CoreGraphics // required for init
+#endif
 
 public struct ImagePaint: Equatable {
   
